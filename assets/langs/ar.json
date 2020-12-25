@@ -5,5 +5,15 @@
     "NewUser": "مستخدم جديد ",
     "You_can_register_for_free_membership": "يمكنك تسجيل عضوية مجانا",
     "Stores":"المتاجر",
-    "Customers":"العملاء"
+    "Customers":"العملاء",
+    "StoreRegistration":"تسجيل المتاجر",
+    "You_can_register_your_store_from_here":"يمكنك تسجيل متجرك من هنا",
+    "CompanyName":"اسم الشركة",
+    "UserName":"اسم المستخدم",
+    "Password":"كلمة المرور",
+    "Email":"البريد الالكتروني",
+    "Select_a_moving_site":"حدد موقع متحرك",
+    "PhoneNumber":"رقم الهاتف",
+    "StoreLogo":"شعار المتجر",
+    "CoumpanyActivity":"نشاط الشركة"
 }

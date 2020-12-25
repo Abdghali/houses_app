@@ -4,6 +4,21 @@
     "Registration": "Registration",
     "NewUser": "New User",
     "You_can_register_for_free_membership": "You can register for free membership",
-    "Customers":"Customers"
+    "Customers":"Customers",
+    "StoreRegistration":"Store Registration",
+    "You_can_register_your_store_from_here":"You can register your store from here",
+    "CompanyName":"Company name",
+    "UserName":"User name",
+    "Password":"Password",
+    "Email":"Email",
+    "Select_a_moving_site":"Select a moving site",
+    "PhoneNumber":"Phone number",
+    "StoreLogo":"Store logo",
+    "CoumpanyActivity":"Coumpany Activity"
+
+
+
+
+
 
 }

@@ -1,6 +1,7 @@
 import 'package:agricultural_project/ui/Screens/HomePage.dart';
 import 'package:agricultural_project/ui/Screens/Register.dart';
 import 'package:agricultural_project/ui/Screens/Splash.dart';
+import 'package:agricultural_project/ui/Screens/StoreRegistration.dart';
 import 'package:agricultural_project/ui/Screens/adsPage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
      // home: SplashPage(),
      // home: AdsPage(),
      //home: RegisterPage(),
-     home: SplashPage(),
+     home: StoreRegistration(),
 
 
        localizationsDelegates: translator.delegates, // Android + iOS Delegates
