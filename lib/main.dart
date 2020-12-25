@@ -1,3 +1,4 @@
+import 'package:agricultural_project/ui/Screens/Register.dart';
 import 'package:agricultural_project/ui/Screens/Splash.dart';
 import 'package:agricultural_project/ui/Screens/adsPage.dart';
 import 'package:flutter/material.dart';
@@ -28,8 +29,8 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
      // home: SplashPage(),
-      home: AdsPage(),
-
+     // home: AdsPage(),
+     home: RegisterPage(),
 
 
        localizationsDelegates: translator.delegates, // Android + iOS Delegates
