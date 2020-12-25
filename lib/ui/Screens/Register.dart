@@ -21,21 +21,110 @@ class _RegisterPageState extends State<RegisterPage> {
             translator.translate('Registration'),
             style: CustomNewStyle.customNewAppBarStyle(),
           ),
+          leading: IconButton(icon:Icon( Icons.arrow_back), onPressed:(){Navigator.pop(context);})
         ),
+      
         body: Column(
           children: [
+            Expanded(flex: 1, child: CustomContainer1()),
             Expanded(
-                flex: 1,
+                flex: 4,
                 child: Container(
-                  color: Colors.yellow,
-                )),
-            Expanded(
-                flex: 5,
-                child: Container(
-                  color: Colors.blue,
+                  child: CustomNewContainer2(),
                 )),
           ],
         ),
+      ),
+    );
+  }
+}
+
+class CustomContainer1 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Container(
+        child: Center(
+          child: ListTile(
+            title: Text(translator.translate('NewUser')),
+            subtitle: Text(
+                translator.translate('You_can_register_for_free_membership')),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class CustomNewContainer2 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Column(
+        children: [
+          Expanded(
+            flex: 1,
+            child: Center(
+              child: Container(
+                padding: EdgeInsets.all(30.w),
+                height: 150.h,
+                width: 150.w,
+                decoration: BoxDecoration(
+                    //  borderRadius: BorderRadius.circular(100),
+                    color: Colors.white,
+                    shape: BoxShape.circle,
+                    boxShadow: [
+                      BoxShadow(
+                        offset: const Offset(2.0, 0.5),
+                        color: Colors.grey,
+                        blurRadius: 5,
+                        spreadRadius: 2.0,
+                      ),
+                    ]),
+                child: Column(
+                  children: [
+                    Icon(
+                      Icons.store_mall_directory_outlined,
+                      size: 60.w,
+                    ),
+                    Text(translator.translate("Stores")),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Expanded(
+            flex: 1,
+            child: Center(
+              child: Container(
+                padding: EdgeInsets.all(30.w),
+                height: 150.h,
+                width: 150.w,
+                decoration: BoxDecoration(
+                   color: Colors.white,
+                    shape: BoxShape.circle,
+                    border: Border.all(width: 0.1),
+                    boxShadow: [
+                      BoxShadow(
+                        offset: const Offset(2.0, 0.5),
+                        color: Colors.grey,
+                        blurRadius: 5,
+                        spreadRadius: 2.0,
+                      ),
+                    ]),
+                child: Column(
+                  children: [
+                    Icon(
+                      Icons.people_alt_outlined,
+                      size: 50.w,
+                    ),
+                    Text(translator.translate("Customers")),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

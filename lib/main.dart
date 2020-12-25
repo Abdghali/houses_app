@@ -1,7 +1,9 @@
+import 'package:agricultural_project/ui/Screens/HomePage.dart';
 import 'package:agricultural_project/ui/Screens/Register.dart';
 import 'package:agricultural_project/ui/Screens/Splash.dart';
 import 'package:agricultural_project/ui/Screens/adsPage.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:localize_and_translate/localize_and_translate.dart';
 
 void main() async {
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -30,7 +32,8 @@ class MyApp extends StatelessWidget {
       ),
      // home: SplashPage(),
      // home: AdsPage(),
-     home: RegisterPage(),
+     //home: RegisterPage(),
+     home: SplashPage(),
 
 
        localizationsDelegates: translator.delegates, // Android + iOS Delegates

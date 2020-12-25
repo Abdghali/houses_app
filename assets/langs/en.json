@@ -1,5 +1,9 @@
 {
-    "maldives_home_store":"Maldives Home Store",
-    "welcome":"welcome",
-    "Registration":"Registration"
-    }
+    "maldives_home_store": "Maldives Home Store",
+    "welcome": "welcome",
+    "Registration": "Registration",
+    "NewUser": "New User",
+    "You_can_register_for_free_membership": "You can register for free membership",
+    "Customers":"Customers"
+
+}

@@ -16,7 +16,7 @@ return TextStyle(
 static customNewAppBarStyle(){
 return TextStyle(
         fontWeight: FontWeight.normal,
-        fontSize: 14.0
+        fontSize: 20.0
         ,color: Colors.white
       );
 }

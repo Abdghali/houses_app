@@ -1,5 +1,9 @@
 {
-"maldives_home_store":"بيت جزر المالديف",
-"welcome":"مرحبا",
-"Registration":"التسجيل"
+    "maldives_home_store": "بيت جزر المالديف",
+    "welcome": "مرحبا",
+    "Registration": "التسجيل",
+    "NewUser": "مستخدم جديد ",
+    "You_can_register_for_free_membership": "يمكنك تسجيل عضوية مجانا",
+    "Stores":"المتاجر",
+    "Customers":"العملاء"
 }
