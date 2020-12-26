@@ -20,4 +20,11 @@ return TextStyle(
         ,color: Colors.white
       );
 }
+static customNewButtonStyle(){
+return TextStyle(
+        fontWeight: FontWeight.normal,
+        fontSize: 20.0
+        ,color: Colors.white
+      );
+}
 }

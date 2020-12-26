@@ -31,10 +31,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-     // home: SplashPage(),
+      home: SplashPage(),
      // home: AdsPage(),
      //home: RegisterPage(),
-   home: StoreRegistration(),
+   //home: StoreRegistration(),
 
 
        localizationsDelegates: translator.delegates, // Android + iOS Delegates
