@@ -1,3 +1,4 @@
+import 'package:agricultural_project/ui/Screens/CliantRegistration.dart';
 import 'package:agricultural_project/ui/Screens/HomePage.dart';
 import 'package:agricultural_project/ui/Screens/Register.dart';
 import 'package:agricultural_project/ui/Screens/Splash.dart';
@@ -31,10 +32,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: SplashPage(),
+    home: SplashPage(),
      // home: AdsPage(),
-     //home: RegisterPage(),
    //home: StoreRegistration(),
+  // home: CliantRegistration(),
+  //home: RegisterPage(),
 
 
        localizationsDelegates: translator.delegates, // Android + iOS Delegates

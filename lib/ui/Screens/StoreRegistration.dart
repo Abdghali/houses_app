@@ -116,7 +116,7 @@ class _StoreRegistrationState extends State<StoreRegistration> {
                   CutomNewTextFormField(
                     labelTextValue: "PhoneNumber",
                     containIcon: false,
-                    saveFunction: saveStoreLogo,
+                    saveFunction: savePhoneNumber,
                   ),
                   SizedBox(height: 10),
                   CutomNewTextFormField(

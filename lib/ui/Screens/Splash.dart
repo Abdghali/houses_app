@@ -1,3 +1,4 @@
+import 'package:agricultural_project/ui/Screens/Register.dart';
 import 'package:agricultural_project/utilities/CustomNewStyle.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -18,7 +19,7 @@ class _SplashPageState extends State<SplashPage> {
     // Future.delayed(Duration(seconds: 6)).then((value) { Get.off(HomePage());});
     return SplashScreen(
         seconds: 6,
-         navigateAfterSeconds: new HomePage(),
+         navigateAfterSeconds: new RegisterPage(),
         title: Text(
           translator.translate('maldives_home_store'),
           style: CustomNewStyle.splashScreenTextBouldStyle(),
